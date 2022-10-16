@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pemesanan barang</title>
+</head>
+
+<body style="background-color: white;width:100%;">
+    <div>
+        <table style="border-style: none; width: 60%;margin-left: auto;margin-right: auto; background-color: pink;">
+            <tr>
+                <td align="center" style="width: 90px;">Home   |</td>
+                <td align="center" style="width: 200px;">Generate Link  |</td>
+                <td align="center" style="width: 200px;">Transaction history    |</td>
+                <td align="center" style="width: 150px;">Policy     |</td>
+                <td align="center" style="width: 100px;">Logout     |</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div style="width: 500px; float: left; text-align: center;">
+        <form method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td><img src="images/kotak.png" alt="kotak" style="width: 250px;margin-left: 80px;"></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <div style="margin-left: 10%;">
+        <form method="post">
+            <table>
+                </tr>
+                 <tr>
+                    <td>Title Here</td>
+                    <td>:</td>
+                    <td>MacBock Air 800</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>:</td>
+                    <td>Year : 2004</td>
+                <tr>
+                    <td style="padding-left: 41%;">Model:</td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 41%;">Condition:Mint</td>
+                </tr>
+                <tr>
+                    <td>Total Amount</td>
+                    <td>:</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Pay to</td>
+                    <td>:</td>
+                    <td>123-456-789-0</td>
+                </tr>
+                <tr>
+                    <td>Payment Type</td>
+                    <td>:</td>
+                    <td>
+                        <select style="width: 177px;height: auto;">
+                            <option>Visa Debit</option>
+                            <option>MANDIRI</option>
+                            <option>BRI</option>
+                            <option>Bank Lain</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Holder</td>
+                    <td>:</td>
+                    <td><input type="text" name="Account holder"></td>
+                </tr>
+                <tr>
+                    <td>Account No</td>
+                    <td>:</td>
+                    <td><input type="text" name="Account No"></td>
+                </tr>
+            </table>
+            <table style="margin-left: 478px;">
+                <tr>
+                    <td>
+                        <p style="color: rgb(0, 182, 0);"><input type="checkbox"><b>Send to Mobile Phone</b></p>
+                        <p style="color: rgb(0, 182, 0);"><input type="checkbox"><b>Email me copy of transaction</b></p>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-left: 330px;">
+                <tr>
+                    <td>Send to Mobile Phone</td>
+                    <td>:</td>
+                    <td><input type="text" name="mobile phone"></td>
+                </tr>
+                <tr>
+                    <td>Send to Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <input type="text" value="generate nabr link" style="margin-left: 490px;background-color: pink; text-align:center;color:black;">
+        </form>
+    </div>
+</body>
+</html>
