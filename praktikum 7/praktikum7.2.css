@@ -1,0 +1,39 @@
+.box1{
+    width: 99%;
+    height: 90px;
+    background-color: yellowgreen;
+    border-style: solid;
+    margin: 10px;
+}
+
+.box2{
+    float:right;
+    width: 70%;
+    height: 250px;
+    background-color: orangered;
+    border-style: solid;
+}
+
+.box3{
+    width: 25%;
+    height: 250px;
+    background-color: yellow;
+    border-style: solid;
+    margin: 10px;
+}
+
+.box4{
+    float:right;
+    width: 70%;
+    height: 250px;
+    background-color: aqua;
+    border-style: solid;
+}
+
+.box5{
+    width: 25%;
+    height: 250px;
+    background-color:yellow;
+    border-style: solid;
+    margin: 10px;
+}
