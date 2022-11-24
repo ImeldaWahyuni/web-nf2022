@@ -1,0 +1,46 @@
+nav, header, footer, article, aside {
+    padding: 1em;
+    justify-content: center;
+}
+
+#navigasi {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+nav {
+    background-color: pink;
+    align-items: stretch;
+    width: 20%;
+}
+
+#header {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer {
+    background-color: khaki;
+    width: 1000px;
+    height: 90px;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+.article {
+    background-color: white;
+    flex: 1;
+    order: 1;
+}
+
+.aside {
+    flex: 0 0 30vh;
+    background-color: aqua;
+    order: 2;
+}
