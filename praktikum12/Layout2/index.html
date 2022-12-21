@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                     
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> <a class="navbar-brand" href="#">Cookies Bakery</a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#">Article</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Varian rasa cookies</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                     <a class="dropdown-item" href="#">Cokelat</a> <a class="dropdown-item" href="#">Strawberry</a> <a class="dropdown-item" href="#">Vanila</a>
+                                    <div class="dropdown-divider">
+                                    </div> <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="text" /> 
+                            <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                                Search
+                            </button>
+                        </form>
+                        <ul class="navbar-nav ml-md-auto">
+                            <li class="nav-item active">
+                                 <a class="nav-link" href="#">Setting<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Account</a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                     <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider">
+                                    </div> <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h2>
+                        Hello, pecinta cookies!
+                    </h2>
+                    <p>
+                        Welcome to Cookies Bakery, cocok banget untuk pecinta kue yang manis-manis seperti kamu yang manis
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-large" href="#">Lihat di sini</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                    Cookies Bakery 
+                </h3>
+                <p>
+                    Cookies Bakery adalah sebuah toko yang menyediakan berbagai macam kue yang sangat manis dengan varian rasa yang berbeda-beda.
+                </p>
+                <br>
+                <p>
+                    Pada Cookies Bakery juga memiliki rasa yang sudah Best Seller. Menariknya di toko ini itu karena kuenya bukan 
+                    seperti kue biasanya, namun macam-macam kue di toko ini itu di ambil dari berbagai negara, tentunya sangat 
+                    langka dan cocok buat kalian yang mencari kue-kue menarik.
+                </p>
+                <h3 class="text-center text-primary">
+                    Pemesanan melalui form di bawah ini!
+                </h3>
+                <form role="form">
+                    <div class="form-group">
+                         
+                        <label for="exampleInputEmail1">
+                            Masukan Nama
+                        </label>
+                        <input type="text" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                         
+                        <label for="exampleInputPassword1">
+                            Alamat
+                        </label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+
+                        <label for="exampleInputVariankue">
+                            Nama Cookies
+                        </label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+
+                        
+                        <label for="exampleInputJumlahPesanan">
+                            Jumlah Pesanan
+                        </label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                         
+                    </div> 
+                    <button type="submit" class="btn btn-primary">
+                        Pesan sekarang
+                    </button>
+                </form>
+            </div>
+            <br>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-danger text-center">
+                            Macam-macam Cookies
+                        </h3>
+                        <p>
+                           Berikut ini adalah macam-macam cookies yang best seller, tentunya rasanya bikin nagih lagi, lagi dan lagi. Selamat memilih
+                           kue yang menurut kamu enak, semoga pilihanmu tidak salah dan tentunya bisa balik lagi untuk membeli kue di toko ini.
+                        </p>
+                        <div class="media">
+                            <img class="mr-3" alt="Bootstrap Media Preview" src="assets/kue1.PNG" width="100" height="100" />
+                            <div class="media-body">
+                                <h5 class="mt-0">
+                                    Alfajores 
+                                </h5> Alfajores sendiri merupakan cookies asal Argentina yang berisi selai manis dengan rasa khas di bagian tengahnya. Nah, biasanya selai ini terbuat dari madu, almond, dan rempah-rempah. Sementara biskuitnya sendiri terbuat dari karamel, susu, tepung, kuning, telur, dan juga butter. Camilan yang populer di Argentina itu biasanya jadi hidangan yang pas untuk disandingkan dengan kopi atau teh saat sarapan.
+                                <div class="media mt-3">
+                                     <a class="pr-3" href="#"><img alt="Bootstrap Media Another Preview" src="assets/kue2.PNG" width="100" height="100" /></a>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">
+                                            Paprenjak
+                                        </h5> Paprenjak merupakan cookies tradisional asal Kroasia. Berbeda dengan cookies pada umumnya yang memiliki rasa manis, paprenjak memiliki cita rasa unik karena mengandung campuran madu dan lada hitam. Untuk membuat cookies asal Kroasia ini, kamu membutuhkan bahan-bahan seperti sirup gula atau madu, mentega, telur, kacang (walnut atau hazelnut), lada hitam, dan berbagai rempah seperti cengkeh, kayu manis, dan pala. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <img class="mr-3" alt="Bootstrap Media Preview" src="assets/kue3.PNG" width="100" height="100" />
+                            <div class="media-body">
+                                <h5 class="mt-0">
+                                    Amaretti
+                                </h5> Cookies asal Italia ini merupakan cikal bakal dari kue macaroon yang tengah populer belakangan ini. Pada awalnya, cookies tersebut dikembangkan di biara Italia pada masa Renaissance. Berbeda dengan macaroon, kue ini memiliki rasa almond yang begitu kuat, namun memiliki tekstur sama yaitu renyah di luar dan lembut di bagian dalam. Agar menghasilkan cita rasa yang beda, orang Italia biasanya mencampurkan gelato dan juga espresso ke dalam adonan amaretti.
+                                <div class="media mt-3">
+                                     <a class="pr-3" href="#"><img alt="Bootstrap Media Another Preview" src="assets/kue 4.PNG" width="100" height="100" /></a>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">
+                                            Stroopwafle
+                                        </h5> Cookies Stroppwafle yang terdiri dari selembar wafel yang dibelah dua dan diisi dengan sirup karamel di bagian tengah ini berasal dari salah satu kota di Belanda, yaitu Gouda. Cookies bercita rasa manis ini biasanya disajikan dengan kopi atau teh untuk sarapan atau santai sore yang diletakkan di atas cangkir sebagai penutupnya. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row bg-info">
+            <div class="col-md-12">
+                <h5>
+                    Tentang Kami :
+                </h5> 
+                <address>
+                     <strong>Cookies Bakery</strong><br />Jl. Mawar<br />Bogor, Jawa Barat<br /> <abbr title="Phone">P:</abbr> (021) 576-0987
+                </address>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
